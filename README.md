@@ -14,6 +14,12 @@ I can only be certain that attribute 28 means "real time wattage". This was conf
 ### How to use with Home Assistant?
 You can use the [command line sensor](https://www.home-assistant.io/integrations/command_line/) component. Examples are in the `ha.yaml` file.
 
+### How to get the energy usage in Home Assistant?
+Use the [Riemann sum integral](https://www.home-assistant.io/integrations/integration/) helper. 
+
+### Code is ugly.
+Feel free to PR `¯\_(ツ)_/¯` 
+
 ### Where are the EXEs (:P)?
 Are you serious?
 
