@@ -1,0 +1,15 @@
+# In configuration.yaml
+# Please note that I am using docker to install Home assistant.
+# get_wattage.py has been mapped by docker volumes to the relevant locations
+
+command_line:
+  - sensor:
+      command: "/usr/local/bin/python /home/cozylife/get_wattage.py"
+      command_timeout: 3
+      name: "Outlet Wattage"
+      icon: "mdi:meter-electric"
+      # https://www.uuidgenerator.net/
+      unique_id: cc7663c5-63fa-4f32-a8c1-677fb2eb1a2c
+      unit_of_measurement: "W"
+      device_class: power
+      scan_interval: 3
